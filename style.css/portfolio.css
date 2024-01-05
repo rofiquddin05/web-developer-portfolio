@@ -5,6 +5,11 @@ body{
 .text-primary{
     color: #fd6e0a;
 }
+.btn-primary{
+    border-radius: 5px;
+    background-color: #fd6e0a;
+
+}
 /* nav related styles */
 nav {
     display: flex;
@@ -13,4 +18,15 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+nav > ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #181818;
 }
